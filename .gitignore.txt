@@ -1,0 +1,15 @@
+# Terraform provider binaries & local cache
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Sensitive variable files (if used)
+*.tfvars
+
+# Editor/OS files
+*.log
+.DS_Store
+.idea/
+.vscode/

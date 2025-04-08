@@ -21,5 +21,5 @@ variable "ami_id" {
 variable "key_name" {
   description = "my-aws-key to creat an Ec2 as bastion host"
   type        = string
-  default     = "myKey"  
+  default     = "myKeypair"  
 }
